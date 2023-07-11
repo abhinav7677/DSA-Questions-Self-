@@ -69,7 +69,7 @@ public class LinkedList {   //always make the class name LinkedList in order to 
             }
             
         }
-        public void removelast(){
+        public void removelast(){ // code for removing the last node
              if(size==0){
                 System.out.println("Linked List is Empty");
             }
