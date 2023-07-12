@@ -55,7 +55,7 @@ public class LinkedList {   //always make the class name LinkedList in order to 
         newnode.next=temp.next;
         temp.next=newnode;
     }
-        public void removefirst(){
+        public void removefirst(){  //Code for removing the first node
             if(size==0){
                 System.out.println("Linked List is Empty");
             }
