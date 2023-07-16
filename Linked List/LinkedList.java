@@ -102,7 +102,7 @@ public class LinkedList {   //always make the class name LinkedList in order to 
             }
             return -1;
         }
-        public void reverse(){
+        public void reverse(){    //For reversing Linked List
             node prev=null;;
             node curr=tail=head;
             node next;
