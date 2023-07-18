@@ -16,7 +16,7 @@ public static node head;
 public static node tail;
 public static int size;  
 
-public void addfirst(int data){
+public void addfirst(int data){  //Not much difference just need to add prev
     node newnode=new node(data);
     size++;
     if(head==null){
