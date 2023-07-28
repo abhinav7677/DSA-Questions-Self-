@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;                                                //other operations in linkedlist 2
 public class LinkedList2 {
     public static class node{
         int data;
