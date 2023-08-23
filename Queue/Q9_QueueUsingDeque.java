@@ -1,7 +1,7 @@
 import java.util.*;
 public class Q9_QueueUsingDeque {
     static class Queue{
-        Deque<Integer> dq=new LinkedList<>();
+        Deque<Integer> dq=new LinkedList<>(); 
         public void add(int data){
             dq.addLast(data);
         }
@@ -12,7 +12,7 @@ public class Q9_QueueUsingDeque {
             return dq.getFirst();
         }
     }
-public static void main(String[] args){
+public static void main(String[] args){ //Basic implemention
     Queue q=new Queue();
     q.add(1);
     q.add(2);
