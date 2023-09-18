@@ -6,6 +6,6 @@ public class Q9_LinkedHashSet {
         city.add("Ranchi");
         city.add("Delhi");
         city.add("Bangalore");
-        System.out.println(city); // order is preserved
+        System.out.println(city); // order is preserved in linkedhash set
     }
 }
